@@ -1,0 +1,107 @@
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.buy-btn {
+    background: #2A3342;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 10px 5px;
+    width: 66%;
+    visibility: hidden;
+    color: #F6F5FB;
+}
+
+#btn-one{
+    margin-top: 25px;
+
+}
+
+#btn-four{
+    margin-top: 45px;
+
+}
+
+
+.modalFuncio{
+    position: absolute;
+    width: 100%;
+    height: 906px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(217, 217, 217, 0.7);
+    visibility: hidden;
+}
+
+.modalCard{
+    
+    width: 671px;
+    height: 561px;
+    background: #FFFFFF;
+    border-radius: 20px;
+
+}
+
+.fechar {
+    height: 10%; 
+    display: flex; 
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.close-btn {
+    border: 0;
+    background: #FFFFFF;
+    margin-right: 20px;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 75%;
+}
+
+.cardInfo h6 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 39px;
+    line-height: 20px;
+}
+
+.cardInfo p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.contato-btn {
+    background: #2A3342;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 15px 5px;
+    width: 40%;
+    
+    color: #F6F5FB;
+}
